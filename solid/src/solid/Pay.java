@@ -7,7 +7,10 @@ package solid;
 
 /**
  * Se crea esta interfaz para satisfacer el punto 4, Interface Segregation
- * Principle 
+ * Principle, al tener dos formas de pago que en si seria la misma funcionalidad
+ * solo que se cambia los parametros que se vayan a ingresar se podria generar 
+ * mas formas de pagos con otras clases un ejemplo seria pago con transferencia bancaria
+ * 
  * @author CltControl
  */
 public interface Pay {

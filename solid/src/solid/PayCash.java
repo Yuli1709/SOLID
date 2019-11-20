@@ -9,6 +9,7 @@ package solid;
  * Esta se crea para poder satisfacer el punto 2, Open/Closed Principle, asi se 
  * puede ampliar mas el funcionamiento de los pagos sin modificar lo que ya
  * esta hecho.
+ * 
  * @author CltControl
  */
 public class PayCash implements Pay{
