@@ -6,9 +6,12 @@
 package solid;
 
 /**
- *
+ * Se crea esta interfaz para satisfacer el punto 4, Interface Segregation
+ * Principle 
  * @author CltControl
  */
 public interface Pay {
-    public void pay(String method, Book book);
+
+    public abstract void pay(String method, Book book);
+    
 }

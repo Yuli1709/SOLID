@@ -39,11 +39,16 @@ public class Book {
 	void setAuthor(String author) {
 		this.author = author;
 	}
+        
+        /**
+         * Este metodo estaría mejor ubicado en la clase StoreBook para
+         * satisfacer mejor el punto 1, Single Responsibility Principle
 	void searchBook() {
 		/*
 		 * Search a book for author or title or category
-		 */
+		 *
 	}
+        */
 
 }
 

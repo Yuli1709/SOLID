@@ -6,13 +6,15 @@
 package solid;
 
 /**
- *
+ * Esta se crea para poder satisfacer el punto 2, Open/Closed Principle, asi se 
+ * puede ampliar mas el funcionamiento de los pagos sin modificar lo que ya
+ * esta hecho.
  * @author CltControl
  */
 public class PayCard implements Pay{
 
     @Override
-    public void pay(String method, Book book) {
+    public void pay(String cardNumber, Book book) {
         /*
         * change state to true
         */
